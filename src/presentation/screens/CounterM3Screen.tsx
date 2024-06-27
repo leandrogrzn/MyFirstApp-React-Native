@@ -16,10 +16,11 @@ export const CounterM3Screen = () => {
         <Icon name="game-controller-outline" size={ 35 } />
 
         <FAB
-            label="+1"
+            // label="+1"
             onPress={ () => setCount(count + 1) }
             onLongPress={ () => setCount(0) }
             style={ globalstyles.fab }
+            icon="add"
             // icon={ () => <Icon name="game-controller-outline" size={ 20 } /> }
         />
     </View>
